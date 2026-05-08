@@ -1,0 +1,2 @@
+# Real secrets live here — never push to version control
+.env

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "matrix-analysis"
+version = "0.1.0"
+description = "Matrix data analysis with numpy, pandas and matplotlib"
+authors = ["anais.n.court@gmail.com"]
+readme = "README.md"
+python = "^3.11"
+
+[tool.poetry.dependencies]
+numpy = "^1.26"
+pandas = "^2.2"
+matplotlib = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
